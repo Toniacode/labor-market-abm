@@ -7,7 +7,7 @@ This repository contains the NetLogo agent-based model (ABM) developed for the M
  
 The model simulates how job seekers find employment and negotiate wages through different social network structures (Random, Small-World, Scale-Free) and formal channels, exploring the impact of network topology on wage inequality and labor market efficiency.
  
-## 🧠 Model Overview
+##  Model Overview
  
 The model is grounded in Granovetter's "Strength of Weak Ties" theory and labor economics' search and matching theory. It consists of three main agent types:
 - **Job Seekers**: Characterized by their skill level, expected wage, social network, and employment status.
@@ -19,7 +19,7 @@ The core workflow involves:
 2.  Firms and job seekers engaging in a wage negotiation process influenced by skill match, social capital (NRI), and market conditions.
 3.  Firms updating their productivity based on hiring outcomes and deciding to create or close positions.
  
-## 🧪 Key Experiments & Findings
+## Key Experiments & Findings
  
 The model was used to test three hypotheses:
 - **H2**: Individuals who use social networks in the job search process usually receive higher salaries.
@@ -33,7 +33,7 @@ The computational experiments compared four scenarios:
  
 **Main Finding:** The simulation results confirm that social networks lead to higher wages (H2). Crucially, the **random network (ER)** yielded the highest and most equitable average wages, while the **scale-free network (BA)** produced the highest wage inequality. This provides strong support for H3 and Granovetter's theory.
  
-## 🚀 How to Run the Model
+##  How to Run the Model
  
 1.  **Prerequisites**: Ensure you have [NetLogo 6.4.0](https://ccl.northwestern.edu/netlogo/download.shtml) (or a compatible version) installed.
 2.  **Download**: Clone this repository or download the `Labor-Market-SN-ABM.nlogo` file.
@@ -51,7 +51,7 @@ The computational experiments compared four scenarios:
 | `β-negotiation` | Weight of the firm's initial offer in final wage | 0.5 |
 | `skill-weight-σ` | Adjusts the impact of skill match on competence | 0.55 |
  
-## 📊 Output and Data Analysis
+## Output and Data Analysis
  
 The model can be run using NetLogo's **BehaviorSpace** tool to perform batch experiments. The main output metrics include:
 - `mean wage`: The average wage of all employed seekers.
